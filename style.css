@@ -1,0 +1,160 @@
+.container {
+	padding: 0;
+	margin: 0;
+}
+
+.background-1 {
+	background-size: cover;
+	max-width: 100%;
+	min-height: 100%;
+}
+
+/* begin top navigation */
+
+.header-container {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.down-arrow-bar {
+	padding: 0;
+	margin: 0;
+	opacity: .8;
+	background-color: black;
+}
+
+.down-arrow {
+	display: inline-block;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 0;
+	-webkit-transition-duration: 800ms;
+	-moz-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+
+}
+
+.rotate {
+	/* Safari */
+	-webkit-transform: rotate(-180deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-180deg);
+
+	/* IE */
+	-ms-transform: rotate(-180deg);
+
+	/* Opera */
+	-o-transform: rotate(-180deg);
+}
+
+.top-nav {
+	display: block;
+	background-color: white;
+	background-color: rgba(255,255,255,0.75);
+	font-family: 'Lobster', serif;
+	font-size: 25px;
+	color: #e82929;	
+	transition: height, 800ms;
+	height: 0;
+	overflow: hidden;
+}
+
+.show-top-nav {
+	height: 55px;
+}
+
+.nav-item {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+.nav-item:link{
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.nav-item:visited {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.nav-item:hover {
+	text-decoration: inherit;
+	color: #7a0716;
+}
+
+.nav-item:active {
+	text-decoration: inherit;
+	color: #7a0716;
+}
+
+/* end top navigation */
+
+.background-2 {
+
+}
+
+.background-3 {
+
+}
+
+/* begin bottom navigation */
+
+.footer-container {
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: right;
+}
+
+.up-arrow-bar {
+	padding: 0;
+	margin: 0;
+	opacity: .8;
+	background-color: black;
+}
+
+.up-arrow {
+	display: inline-block;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 40px;
+	-webkit-transition-duration: 800ms;
+	-moz-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+
+}
+
+.bottom-nav {
+	display: block;
+	background-color: white;
+	background-color: rgba(255,255,255,0.75);
+	font-family: 'Lobster', serif;
+	font-size: 25px;
+	color: #e82929;	
+	transition: height, 800ms;
+	height: 0;
+	overflow: hidden;
+}
+
+.show-bottom-nav {
+	height: 55px;
+}
+
+/* end bottom navigation */
