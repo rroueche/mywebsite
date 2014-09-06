@@ -28,11 +28,12 @@
 
 .down-arrow {
 	display: inline-block;
-	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 40px;
-	padding-right: 0;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	margin-right: 0;
+	width: 50px;
 	-webkit-transition-duration: 800ms;
 	-moz-transition-duration: 800ms;
 	-o-transition-duration: 800ms;
@@ -129,16 +130,16 @@
 
 .up-arrow {
 	display: inline-block;
-	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-	padding-right: 40px;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right: 40px;
+	width: 50px;
 	-webkit-transition-duration: 800ms;
 	-moz-transition-duration: 800ms;
 	-o-transition-duration: 800ms;
 	transition-duration: 800ms;
-
 }
 
 .bottom-nav {
